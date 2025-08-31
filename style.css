@@ -7,19 +7,22 @@
   --button-color: #3882F6;
   --default-vert-padding: 200px;
   font-family: "Roboto", sans-serif;
+  --text-size: 18px;
 }
 
 body {
   margin: 0;
+  font-size: var(--text-size);
 }
 
-header {
+header, footer {
   display: flex;
   justify-content: space-between;
   background-color: var(--dark-bg-color);
   padding: 0 var(--default-vert-padding);
   color: var(--almost-white);
   align-items: center;
+  height: 100px;
 }
 
 .logo {
@@ -31,5 +34,19 @@ header ul {
   display: flex;
   list-style-type: none;
   gap: 0 2rem;
-  font-size: 18px;
+}
+
+main {
+  padding: 0 var(--default-vert-padding);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.hero {
+  display: flex;
+}
+
+footer {
+  justify-content: center;
 }
