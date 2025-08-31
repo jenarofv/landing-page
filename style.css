@@ -65,7 +65,7 @@ p {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: #6d747d;
+  background-color: #6d747d;
 }
 
 button {
