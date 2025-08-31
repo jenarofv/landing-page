@@ -5,6 +5,7 @@
   --almost-white: #f9faf8;
   --gray: #e5e7eb;
   --button-color: #3882F6;
+  --dark-gray: #3d4652;
   --default-vert-padding: 200px;
   font-family: "Roboto", sans-serif;
   --text-size: 18px;
@@ -59,11 +60,6 @@ p {
   margin-block-start: 0;
 }
 
-.image-container {
-  display: flex;
-  justify-content: space-evenly;
-}
-
 .placeholder {
   flex: 1 0 50%;
   display: flex;
@@ -86,7 +82,52 @@ button {
   display: flex;
   flex-flow: column wrap;
   align-items: center;
-  padding: 0 var(--default-vert-padding);
+  justify-content: space-between;
+  padding: 48px var(--default-vert-padding) 100px;
+  gap: 48px;
+}
+
+.info-header {
+  font-size: 36px;
+  color: var(--dark-bg-color);
+  font-weight: 900;
+}
+
+.image-container {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 0 50px;
+  text-align: center;
+  color: var(--dark-bg-color);
+}
+
+.image {
+  flex: 0 1 166px;
+}
+
+img {
+  border: var(--button-color) 4px solid;
+  border-radius: 20px;
+}
+
+.quote-container {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--gray);
+  padding: 140px 320px 100px;
+}
+
+.quote-container em {
+  font-size: 36px;
+  font-weight: 300;
+  padding-left: 20px;
+}
+
+.author {
+  font-weight: 800;
+  font-size: 24px;
+  text-align: right;
+  padding-right: 2.5rem;
 }
 
 footer {
