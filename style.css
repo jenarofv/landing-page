@@ -132,4 +132,10 @@ img {
 
 footer {
   justify-content: center;
+  height: 100px;
+  text-align: center;
+}
+
+footer p {
+  margin-block-start: revert;
 }
