@@ -130,6 +130,31 @@ img {
   padding-right: 2.5rem;
 }
 
+.action {
+  display: flex;
+  margin: 100px var(--default-vert-padding) 100px;
+  background-color: var(--button-color);
+  border-radius: 10px;
+  padding: 50px 120px;
+  color: var(--almost-white);
+  justify-content: space-between;
+  align-items: center;
+}
+
+.caller {
+  font-weight: 800;
+  font-size: 24px;
+}
+
+.action button {
+  border: 3px solid white;
+  padding: 0.5rem 2rem;
+}
+
+.banner p {
+  margin-block-end: 0;
+}
+
 footer {
   justify-content: center;
   height: 100px;
