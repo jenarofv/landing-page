@@ -1,11 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+  --dark-bg-color: #1f2937;
+  --almost-white: #f9faf8;
+  --gray: #e5e7eb;
+  --button-color: #3882F6;
+  --default-vert-padding: 200px;
+  font-family: "Roboto", sans-serif;
+}
+
 body {
-  padding-left: 200px;
-  padding-right: 200px;
+  margin: 0;
 }
 
 header {
   display: flex;
   justify-content: space-between;
+  background-color: var(--dark-bg-color);
+  padding: 0 var(--default-vert-padding);
+  color: var(--almost-white);
 }
 
 ul {
