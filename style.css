@@ -82,6 +82,13 @@ button {
   font-weight: 700;
 }
 
+.info{
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  padding: 0 var(--default-vert-padding);
+}
+
 footer {
   justify-content: center;
 }
