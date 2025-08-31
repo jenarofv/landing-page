@@ -19,10 +19,17 @@ header {
   background-color: var(--dark-bg-color);
   padding: 0 var(--default-vert-padding);
   color: var(--almost-white);
+  align-items: center;
 }
 
-ul {
+.logo {
+  font-size: 24px;
+  font-weight: 800;
+}
+
+header ul {
   display: flex;
   list-style-type: none;
   gap: 0 2rem;
+  font-size: 18px;
 }
